@@ -9,10 +9,6 @@
 .jsavgraph svg {
   z-index: 0;
 }
-.jsavline {
-  height: 35px;
-}
-
 .jsavnode.marked {
   background-color: #FFF050;
 }
@@ -20,11 +16,12 @@
   background-color: #ddd;
 }
 .jsavgraph .jsavedge {
-  stroke-width: 8;
-  stroke: #7D8879;
+  stroke-width: 10;
+  stroke: #d59f0d;
 }
 .jsavgraph .jsavedge.marked {
-  stroke: #F6B611;
+  stroke-width: 16;
+  stroke: #ffe000;
 }
 .jsavgraph .jsavedge.discarded {
   stroke: rgba(125, 136, 121, 0.2);
@@ -40,6 +37,15 @@
 }
 
 .jsavmatrix .jsavarray li.jsavnode {
-  width: 40px;
+  min-width: 35px;
   height: 35px;
+}
+
+.jsavmatrix .jsavarray li.jsavnode:first-child {
+  min-width: 50px;
+  height: 35px;
+}
+
+.jsavmatrix .jsavarray .marked {
+  background-color: #ffe000;
 }
