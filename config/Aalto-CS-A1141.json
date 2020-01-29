@@ -1,0 +1,217 @@
+{
+  "title": "Data Structures and Algorithms Y",
+  "desc": "Aalto University CS-A1141/43",
+  "build_dir": "Books",
+  "code_dir": "SourceCode/",
+  "code_lang": {
+    "Java": {
+      "ext": [
+        "java"
+      ],
+      "label": "Java",
+      "lang": "java"
+    },
+    "C++": {
+      "ext": [
+        "cpp",
+        "h"
+      ],
+      "label": "C++",
+      "lang": "C++"
+    }
+  },
+  "lang": "en",
+  "build_JSAV": false,
+  "build_cmap": false,
+  "narration_enabled": false,
+  "suppress_todo": true,
+  "dispModComp": true,
+  "tag": "CPP;CS2",
+  "glob_exer_options": {
+    "JXOP-debug": "true"
+  },
+  "glob_ss_options": {
+    "threshold": 1.0,
+    "points": 0.0,
+    "required": false
+  },
+  "glob_ff_options": {
+    "threshold": 1.0,
+    "points": 0.0,
+    "required": false
+  },
+  "glob_ka_options": {
+    "threshold": 5,
+    "points": 1.0,
+    "required": true
+  },
+  "glob_extr_options": {
+    "code-workout": {
+      "points": 2.0
+    },
+    "points": 1.0
+  },
+  "glob_pe_options": {
+    "threshold": 0.9,
+    "points": 2.0,
+    "required": true
+  },
+  "chapters": {
+    "Introduction": {
+      "Background/IntroDSA": {
+        "Some Software Engineering Topics": {
+          "showsection": false
+        }
+      },
+      "Design/ADT": {}
+    },
+    "Mathematical Background": {
+      "Background/MathpreIntro": {},
+      "Background/SetDef": {},
+      "Background/MiscMath": {},
+      "Background/Logarithms": {},
+      "Background/Summations": {},
+      "Background/RecurrenceIntro": {},
+      "Background/Proofs": {},
+      "Background/Estimation": {},
+      "Background/MathpreSumm": {}
+    },
+    "Linear Structures": {
+      "List/ListIntro": {},
+      "List/ListADT": {},
+      "List/ListArray": {},
+      "List/ListLinked": {},
+      "List/ListAnalysis": {},
+      "List/ListDouble": {},
+      "List/ListElement": {},
+      "List/StackArray": {},
+      "List/StackLinked": {},
+      "List/Freelist": {},
+      "List/Queue": {},
+      "List/QueueLinked": {},
+      "List/ListSumm": {}
+    },
+    "Recursion": {
+      "RecurTutor/RecIntro": {},
+      "RecurTutor/Write": {},
+      "RecurTutor/CodeCompletionEx": {},
+      "RecurTutor/HarderWrite": {},
+      "RecurTutor/HarderCodeCompletionEx": {},
+      "RecurTutor/WritingEx": {},
+      "List/StackRecur": {},
+      "RecurTutor/Trace": {},
+      "RecurTutor/TracingEx": {},
+      "RecurTutor/RecSummaryEx": {}
+    },
+    "Algorithm Analysis": {
+      "AlgAnal/AnalChap": {},
+      "AlgAnal/AnalPrelim": {},
+      "AlgAnal/AnalIntro": {},
+      "AlgAnal/AnalCases": {},
+      "AlgAnal/AnalCompvsAlg": {},
+      "AlgAnal/AnalAsymptotic": {},
+      "AlgAnal/AnalProgram": {},
+      "AlgAnal/AnalProblem": {},
+      "AlgAnal/AnalMisunderstanding": {},
+      "AlgAnal/AnalMultiple": {},
+      "AlgAnal/AnalSpace": {},
+      "AlgAnal/AnalTuning": {},
+      "SeniorAlgAnal/Recurrence": {},
+      "AlgAnal/AlgAnalSummCS2": {},
+      "AlgAnal/AlgAnalSummCS3": {}
+    },
+    "Sorting": {
+      "Sorting/InSort": {},
+      "Sorting/SortNotation": {},
+      "Sorting/InsertionSort": {},
+      "Sorting/BubbleSort": {},
+      "Sorting/SelectionSort": {},
+      "Sorting/ExchangeSort": {},
+      "Sorting/SortOpt": {},
+      "Sorting/Shellsort": {},
+      "Sorting/Mergesort": {},
+      "Sorting/MergesortImpl": {},
+      "Sorting/Quicksort": {},
+      "Sorting/Heapsort": {},
+      "Sorting/BinSort": {},
+      "Sorting/RadixSort": {},
+      "Sorting/SortingEmpirical": {},
+      "Sorting/SortingLowerBound": {},
+      "Sorting/SortSumm": {}
+    },
+    "Binary Trees": {
+      "Binary/BinaryTreeIntro": {},
+      "Binary/BinaryTree": {},
+      "Binary/RecursiveDS": {},
+      "Binary/BinaryTreeFullThm": {},
+      "Binary/BinaryTreeTraversal": {},
+      "Binary/BinaryTreeImpl": {},
+      "Binary/Composite": {},
+      "Binary/BinaryTreeNodeSpace": {},
+      "Binary/BST": {},
+      "Binary/BSTDict": {},
+      "Binary/CompleteTree": {},
+      "Binary/Heaps": {}
+    },
+    "General Trees": {
+      "General/GenTreeIntro": {
+        "codeinclude": {"General/GenTree": "none"}
+      },
+      "General/UnionFind": {},
+      "General/SequentialRep": {},
+      "Development/Kary": {}
+    },
+    "Search structures": {
+      "Searching/SearchIntro": {},
+      "Searching/UnsortedSearch": {},
+      "Searching/SortedSearch": {},
+      "Searching/SelfOrg": {},
+      "Development/SetSearch": {},
+      "SearchStruct/BalancedTree": {},
+      "SearchStruct/AVL": {},
+      "SearchStruct/Splay": {},
+      "SearchStruct/RedBlack": {},
+      "Indexing/IndexIntro": {},
+      "Indexing/LinearIndexing": {},
+      "Indexing/ISAM": {},
+      "Indexing/TreeIndexing": {},
+      "Indexing/TwoThreeTree": {},
+      "Indexing/BTree": {}
+    },
+    "Hashing": {
+      "Hashing/HashIntro": {},
+      "Hashing/HashFunc": {},
+      "Hashing/HashFuncExamp": {},
+      "Hashing/OpenHash": {},
+      "Hashing/BucketHash": {},
+      "Hashing/HashCSimple": {},
+      "Hashing/HashCImproved": {},
+      "Hashing/HashAnal": {},
+      "Hashing/HashDel": {},
+      "Hashing/HashSumm": {}
+    },
+    "Graphs": {
+      "Graph/GraphIntro": {},
+      "Graph/GraphImpl": {},
+      "Graph/GraphTraversal": {},
+      "Graph/GraphTopsort": {},
+      "Graph/GraphShortest": {},
+      "Graph/MCST": {},
+      "Graph/Kruskal": {}
+    },
+    "Dynamic Programming": {
+      "SeniorAlgAnal/DynamicProgramming": {},
+      "Development/Knapsack": {}
+    },
+    "Limits to Computing": {
+      "NP/LimComp": {},
+      "NP/Reduction": {},
+      "NP/NPComplete": {},
+      "NP/NPCoping": {}
+    },
+    "Appendix": {
+      "Glossary": {},
+      "Bibliography": {}
+    }
+  }
+}
